@@ -48,4 +48,19 @@ func main() {
 
 	fmt.Println(isTrue)
 	fmt.Println(isTrueSecond)
+
+	// constants
+	const pi = 3.14
+	const pi2 float32 = 3.14
+	const pi3 float64 = 3.14
+
+	fmt.Println(pi)
+	fmt.Println(pi2)
+	fmt.Println(pi3)
+
+	const greating = "Hello"
+	const greating2 = "World"
+
+	fmt.Println(greating)
+	fmt.Println(greating2)
 }
