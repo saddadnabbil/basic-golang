@@ -1,0 +1,51 @@
+package main
+
+import "fmt"
+
+func main() {
+	// integer
+	var number int64 = 123123123123123123
+	number2 := 123
+
+	// error duplciate declare of variable
+	// number2 := 321
+	number2 = 321
+
+	fmt.Println(number)
+
+	number = 0
+
+	fmt.Println(number)
+	fmt.Println(number2)
+
+	// float
+	var float float32 = 123123.123
+	float2 := 12312.12
+
+	fmt.Println(float)
+	fmt.Println(float2)
+
+	// unsigned integer
+	var unsigned uint8 = 123
+	unsigned2 := 123123
+	unsigned3 := uint64(12312312)
+
+	fmt.Println(unsigned)
+	fmt.Println(unsigned2)
+	fmt.Println(unsigned3)
+
+	// string
+	var hello string = "Hello"
+	hello = "world"
+	hello2 := "Mantap"
+
+	fmt.Println(hello)
+	fmt.Println(hello2)
+
+	// boolean
+	var isTrue bool = false
+	isTrueSecond := true
+
+	fmt.Println(isTrue)
+	fmt.Println(isTrueSecond)
+}
