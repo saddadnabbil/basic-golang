@@ -63,4 +63,24 @@ func main() {
 
 	fmt.Println(greating)
 	fmt.Println(greating2)
+
+	fmt.Printf("%s %s\n", greating, greating2) // string interpolation
+
+	// multiple declare
+	// var fourth, fifth, sixth string = "empat", "lima", "enam"
+	fourth, fifth, sixth := "empat", "lima", "enam"
+
+	fmt.Println(fourth)
+	fmt.Println(fifth)
+	fmt.Println(sixth)
+
+	// underscore variable
+	// used for unused variable
+	_ = 123
+	fmt.Println("Hello World")
+
+	// declare variable with new
+	// used for allocate memory (pointer)
+	name := new(string)
+	fmt.Println(name)
 }
